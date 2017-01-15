@@ -122,12 +122,12 @@ Ultimately, it's your choice. VSCode or WebStorm are recommended.
 
 ## Front-end application logic
 
-[Angular 2](https://angular.io/)
+- [Angular 2](https://angular.io/)
 
 ## Layout/HTML/CSS
 
-[Bootstrap](http://getbootstrap.com/)
-[Flexbox Grid](http://flexboxgrid.com/)
+- [Bootstrap](http://getbootstrap.com/)
+- [Flexbox Grid](http://flexboxgrid.com/)
 
 ---
 
