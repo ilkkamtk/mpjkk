@@ -9,12 +9,11 @@ class: center, middle
 
 1. Create new app with Angular CLI
 2. Create new component 'http-test'
-3. Create new text file 'example.json' and type in some JSON formatted data. Save it in the 'src' folder. 
-4. In the component create a method which fetches data from the JSON file either with GET or POST
+3. In the component create a method which fetches 'package.json' file (in 'src') either with GET or POST
     * Example ```this.http.get('example.json').subscribe((res:Response) => this.someVariable = res.json());```
-5. First log the data using ```console.log()```
-6. Then print the data using HTML (e.g. table)
-7. Remember to call the method
+4. First log the data using ```console.log()```
+5. Then print the data using HTML (e.g. table)
+6. Remember to call the method
 
 ### Fetching data with HTTP Client, Task B
 
