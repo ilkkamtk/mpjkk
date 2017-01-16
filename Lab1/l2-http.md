@@ -9,10 +9,10 @@ class: center, middle
 
 1. Create new app with Angular CLI
 2. Create new component 'http-test'
-3. In the component create a method which fetches 'package.json' file (in 'src') either with GET or POST
+3. In the component create a method which fetches 'tsconfig.json' file (in 'src') either with GET or POST
     * Example ```this.http.get('example.json').subscribe((res:Response) => this.someVariable = res.json());```
 4. First log the data using ```console.log()```
-5. Then print the data using HTML (e.g. table)
+5. Then print the data using HTML (e.g. p, table etc)
 6. Remember to call the method
 
 ### Fetching data with HTTP Client, Task B
