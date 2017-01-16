@@ -5,6 +5,10 @@ class: center, middle
 
 ## 1/2017
 
+## Install Postman Chrome Addon
+1. [Download and install Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
+2. [Documentation](https://www.getpostman.com/docs/)
+
 ### Fetching data with HTTP Client 1
 
 1. Create new app with Angular CLI
