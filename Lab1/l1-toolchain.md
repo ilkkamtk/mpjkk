@@ -64,7 +64,11 @@ Ultimately, it's your choice. VSCode or WebStorm are recommended.
 - npm packages needed in a project (dependencies) are listed in the `package.json` file and can be install with `npm install` command
 - locally installed (=project specific) packages are downloaded to `node_modules/` folder (should be excluded from version control using .gitignore)
 
-#### Alternative
+#### OS X no sudo
+
+- [instructions](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)
+
+### Alternative
 
 [Yarn](https://yarnpkg.com/) 
 
