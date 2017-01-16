@@ -232,6 +232,3 @@ Change integrated console to Bash in Windows:
 
 ---
 
-## Useful online material
-
-Check [Readme file](https://github.com/mattpe/wbma) of this repo.
