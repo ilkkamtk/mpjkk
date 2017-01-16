@@ -226,7 +226,7 @@ Change integrated console to Bash in Windows:
 2. Use angular-cli to generate the app skeleton ([set style type to _scss_](https://github.com/angular/angular-cli#global-styles)).
 3. Test that app works, run with angular-cli and open in browser
 4. Create a remote git repository (github/bitbucket) and push your app there
-5. If not public, share your repo to both teacher accounts: _mattpe_ & _ilkkamtk_ and return the repo link to tuubi.
+5. If not public, share your repo to teacher account: _ilkkamtk_ and return the repo link to tuubi.
 
 **b.**
 
