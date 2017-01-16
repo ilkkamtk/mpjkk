@@ -228,7 +228,6 @@ Change integrated console to Bash in Windows:
 
 1. develop your app further following the [Note card tutorial](http://courses.angularclass.com/courses/angular-2-fundamentals/lectures/1280055) but now use `ng` command to generate components.
 2. git add, commit & push to remote repository 
-3. goto b 1.
 
 ---
 
