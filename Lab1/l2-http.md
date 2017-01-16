@@ -5,18 +5,18 @@ class: center, middle
 
 ## 1/2017
 
-### Fetching data with HTTP Client 1
+### Fetching data with HTTP Client, Task A
 
 1. Create new app with Angular CLI
-2. Create new component 'http-component'
-3. Create new text file 'example.json' and type in some JSON formatted data 
-4. In the component create a method which returns data from API either with GET or POST
+2. Create new component 'http-test'
+3. Create new text file 'example.json' and type in some JSON formatted data. Save it in the 'src' folder. 
+4. In the component create a method which fetches data from the JSON file either with GET or POST
     * Example ```this.http.get('example.json').subscribe((res:Response) => this.someVariable = res.json());```
 5. First log the data using ```console.log()```
 6. Then print the data using HTML (e.g. table)
 7. Remember to call the method
 
-### Fetching data with HTTP Client 1
+### Fetching data with HTTP Client, Task B
 
 1. Create another method that fetches data from API of your choice
 2. First log the data using ```console.log()```
