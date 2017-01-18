@@ -1,5 +1,3 @@
-class: center, middle
-
 # Mediapalvelut ja käyttäjäkokemus, Angular Toolchain
 
 
