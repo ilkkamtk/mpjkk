@@ -22,3 +22,7 @@ ___
 
 about.html
 ![Index screenshot](images/about.png)
+
+### Make carousel responsive:
+- [Object fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+- [Object position](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position)
