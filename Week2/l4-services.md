@@ -27,3 +27,8 @@
 4. Printing data:
     - using expression `{{ variable }}`
     - iterate repeating data: `*ngFor`
+    
+### Extra Play with the Postman
+1. [Get Postman](https://www.getpostman.com/) and take a look at [docs & tutorials](https://www.getpostman.com/docs/).
+2. Use Postman to fetch the same data as you did with curl in the previous task.
+3. Also practise the API(s) you have chosen for your project.
