@@ -116,7 +116,7 @@ _top-bar.component.html_
 2. Create new service 'digitransit' to services folder `ng g s services/digitransit`. Copy/paste the content of `digitransit.service.ts` from previous lab.
 3. Copy/paste the content of `routes.component.ts` and `routes.component.html` from previous lab
 4. Your task is to make the app work like this:
-- User enters the name of a bus stop in 'setup'
-- When the name is set, user is redirected to 'routes' which displays the bus routes of the entered bus stop just like in previous lab
-- Advanced: When user clicks on a route, new browser window is opened which displays the current position of selected route in Google Maps
--   - You can create a marker to a certain location by redirecting to `https://maps.google.fi/maps/place/latitude+longitude`
+  - User enters the name of a bus stop in 'setup'
+  - When the name is set, user is redirected to 'routes' which displays the bus routes of the entered bus stop just like in previous lab
+  - Advanced: When user clicks on a route, new browser window is opened which displays the current position of selected route in Google Maps
+    - You can create a marker to a certain location by redirecting to `https://maps.google.fi/maps/place/latitude+longitude`
