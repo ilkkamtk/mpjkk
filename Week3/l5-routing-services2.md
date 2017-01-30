@@ -87,27 +87,27 @@ _*.component.html_
 2. Create components 'top-bar', 'setup' and 'routes' (these are bus routes, not angular routes)
 3. Templates:
 
-_top-bar.component.html_
- ```
- <nav>
-     <ul>
-       <li>
-           <a>Setup</a>
-       </li>
-       <li>
-           <a>Routes</a>
-       </li>
-     </ul>
- </nav>
- ```
- _setup.component.html_
- ```
- <h1>This is setup</h1>
- ```
-  _routes.component.html_
-  ```
-  <h1>This is routes</h1>
-  ```
+  _top-bar.component.html_
+   ```
+   <nav>
+       <ul>
+         <li>
+             <a>Setup</a>
+         </li>
+         <li>
+             <a>Routes</a>
+         </li>
+       </ul>
+   </nav>
+   ```
+   _setup.component.html_
+   ```
+   <h1>This is setup</h1>
+   ```
+    _routes.component.html_
+    ```
+    <h1>This is routes</h1>
+    ```
 4. Read the above info about routing and make the app change states between Setup and Routes by clicking the links in top-bar (=navigation)
  
 ### Services PT II
