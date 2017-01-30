@@ -49,9 +49,9 @@ _app.module.ts_
 ```typescript
 const routeConfig = [
   {
-*   path: '',
-*   pathMatch: 'full',
-*   redirectTo: 'example'
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'example'
   },
   {
     path: 'example',
