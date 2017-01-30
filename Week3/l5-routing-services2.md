@@ -51,7 +51,7 @@ const routeConfig = [
   {
 *   path: ''
 *   pathMatch: 'full',
-*   redirectTo: 'todos/'
+*   redirectTo: 'example/'
   },
   {
     path: 'example',
