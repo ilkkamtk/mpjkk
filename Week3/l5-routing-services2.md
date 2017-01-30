@@ -72,7 +72,7 @@ _*.component.ts_
 ```typescript
 export class AppComponent {
   constructor(private router: Router) {
-*   this.router.navigate(['example']);
+  this.router.navigate(['example']);
   }
 }
 ```
