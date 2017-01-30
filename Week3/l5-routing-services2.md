@@ -117,6 +117,7 @@ _*.component.html_
 3. Copy/paste the content of `routes.component.ts` and `routes.component.html` from previous lab
 4. Your task is to make the app work like this:
   - User enters the name of a bus stop in 'setup'
+    - Two way data binding with [ngModel](https://blog.thoughtram.io/angular/2016/10/13/two-way-data-binding-in-angular-2.html)
   - When the name is set, user is redirected to 'routes' which displays the bus routes of the entered bus stop just like in previous lab
   - Advanced: When user clicks on a route, new browser window is opened which displays the current position of selected route in Google Maps
     - You can create a marker to a certain location by redirecting to `https://maps.google.fi/maps/place/latitude+longitude`
