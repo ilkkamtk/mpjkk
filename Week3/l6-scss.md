@@ -23,6 +23,7 @@
         
 ## Customizing Bootstrap
 - [Customization options](http://v4-alpha.getbootstrap.com/getting-started/options/#content)
+    - path to `_custom.scss is `node_modules/bootstrap/scss`
 - [Mixins](https://v4-alpha.getbootstrap.com/layout/grid/#sass-mixins)
 - If you don't want to use SASS, you can create your own CSS file which has the same classes as Bootstrap. Of course not all, just those you want to modify.
 
@@ -34,7 +35,7 @@
      - First do the basic layout by using Bootstrap's grid system.
     - Then add Navbars, buttons etc.
     - Customize the colors, sizes etc to finalize the layout
-    - The result does not have to be pixel-perfect. Colors, fonts and content can differ from the layout images. But if something is transparent in the layout (like navbar) then make it transparent also in the result.
+    - The result does not have to be pixel-perfect. Colors, fonts and content can differ from the layout images. But if something is transparent in the layout (like navbar) then make it transparent also in the result.
 5. Upload to shell.metropolia.fi and submit a link to Tuubi
 
 ## Adding Bootsrap to angular-cli project
