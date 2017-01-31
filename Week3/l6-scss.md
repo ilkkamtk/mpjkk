@@ -19,7 +19,7 @@
     - to see the changes run `npm run watch-css`
         - this will compile scss to css and create `css/main.css`
         - remember to refresh the browser
-4. Upload to shell.metropolia.fi and submit a link to Tuubi
+4. Upload to shell.metropolia.fi and submit a link to Trello
         
 ## Customizing Bootstrap
 - [Customization options](http://v4-alpha.getbootstrap.com/getting-started/options/#content)
@@ -37,7 +37,7 @@
     - Then add Navbars, buttons etc.
     - Customize the colors, sizes etc to finalize the layout
     - The result does not have to be pixel-perfect. Colors, fonts and content can differ from the layout images. But if something is transparent in the layout (like navbar) then make it transparent also in the result.
-5. Upload to shell.metropolia.fi and submit a link to Tuubi
+5. Upload to shell.metropolia.fi and submit a link to Trello
 
 ## Adding Bootsrap to angular-cli project
 - Install Bootstrap with npm:
