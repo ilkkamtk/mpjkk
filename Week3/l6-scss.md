@@ -33,7 +33,7 @@
 2. Install dependencies `npm install`
 3. Start automation: `npm run watch-css`
 4. There are two layout images in img folder. Choose one and implement that layout with Bootstrap
-     - First do the basic layout by using Bootstrap's grid system.
+    - First do the basic layout by using Bootstrap's grid system.
     - Then add Navbars, buttons etc.
     - Customize the colors, sizes etc to finalize the layout
     - The result does not have to be pixel-perfect. Colors, fonts and content can differ from the layout images. But if something is transparent in the layout (like navbar) then make it transparent also in the result.
