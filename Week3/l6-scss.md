@@ -23,6 +23,7 @@
         
 ## Customizing Bootstrap
 - [Customization options](http://v4-alpha.getbootstrap.com/getting-started/options/#content)
+
     - path to `_custom.scss` is `node_modules/bootstrap/scss`
 - [Mixins](https://v4-alpha.getbootstrap.com/layout/grid/#sass-mixins)
 - If you don't want to use SASS, you can create your own CSS file which has the same classes as Bootstrap. Of course not all, just those you want to modify.
