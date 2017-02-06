@@ -29,3 +29,4 @@ Learn about how Angular handles forms:
     
 ### Some help:
 - [Local Storage](http://www.w3schools.com/html/html5_webstorage.asp)
+- Convert object to string: `JSON.stringify()`, convert string to object: `JSON.parse()`
