@@ -1,5 +1,3 @@
-class: center, middle
-
 # WBMA, Angular Pipes
 
 ## 4/2017

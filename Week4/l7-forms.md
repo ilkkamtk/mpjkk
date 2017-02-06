@@ -1,5 +1,3 @@
-class: center, middle
-
 # MPJKK, Angular Forms
 
 ## 4/2017
