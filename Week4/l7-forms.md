@@ -26,6 +26,7 @@ Learn about how Angular handles forms:
 1. Add following functionality to 'routes' page:
     - The routes of favourite stop are displayed
     - Personal information is displayed
+1. Submit link to your repo to Trello
     
 ### Some help:
 - [Local Storage](http://www.w3schools.com/html/html5_webstorage.asp)
