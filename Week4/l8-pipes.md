@@ -30,3 +30,4 @@ Learn about Angular pipes:
         - some help [here](https://angular.io/docs/ts/latest/api/common/index/DatePipe-pipe.html) and [here](http://stackoverflow.com/questions/34904683/how-to-set-locale-in-datepipe-in-angular2/35527407)
         - finnish locale is 'fi-FI'
         - create custom pipe to remove the parenthesis from name of route. Example:  `235N to Kuurintorppa (HSL:2614260)`=>`235N to Kuurintorppa`
+            - substring(), indexOf()
