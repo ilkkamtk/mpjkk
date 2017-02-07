@@ -19,6 +19,9 @@ Learn about Angular pipes:
         - when the stop is clicked Google wants users to view larger map for more info like bus stop's code etc.
         - some help [here](https://developers.google.com/maps/documentation/embed/guide#optional_parameters) and [here](http://stackoverflow.com/questions/38037760/how-to-set-iframe-src-in-angular-2-without-causing-unsafe-value-exception)
         - example url for place: `https://www.google.com/maps/embed/v1/place?key=${this.key}&q=Mannerheimintie`
+        - Creating pipe with Angular CLI:
+            - create 'pipes' directory to 'app' folder
+            - run `ng g pipe pipes/pipeName`
 1. Add following functionality to 'routes' page:
     - When user clicks on a route, location of a bus is shown on map which is also in iframe-element (so not in new browser window)
         - example url for coordinates: `https://www.google.com/maps/embed/v1/place?key=${this.key}&q=${lat},${lon}`
