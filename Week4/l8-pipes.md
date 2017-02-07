@@ -31,3 +31,4 @@ Learn about Angular pipes:
         - finnish locale is 'fi-FI'
         - create custom pipe to remove the parenthesis from name of route. Example:  `235N to Kuurintorppa (HSL:2614260)`=>`235N to Kuurintorppa`
             - substring(), indexOf()
+            - or replace() With a Regular Expression
