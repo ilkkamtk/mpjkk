@@ -237,7 +237,7 @@ Change integrated console to Bash in Windows:
 
 **a.**
 
-1. Install code editor + extensions, git, npm and angular-cli
+1. Install code editor (+ extensions), git, npm and angular-cli
 2. Use angular-cli to generate the app skeleton ([set style type to _scss_](https://github.com/angular/angular-cli#global-styles)).
 3. Test that app works, run with angular-cli and open in browser
 4. Create a remote git repository (github/bitbucket) and push your app there
