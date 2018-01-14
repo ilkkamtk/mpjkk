@@ -1,7 +1,7 @@
 # Mediapalvelut ja käyttäjäkokemus, Angular HTTP Client
 
 
-## 1/2017
+## 1/2018
 
 ### Fetching data with HTTP Client, Task A
 

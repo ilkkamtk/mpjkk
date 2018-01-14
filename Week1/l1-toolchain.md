@@ -1,25 +1,29 @@
 # Mediapalvelut ja käyttäjäkokemus, Angular Toolchain
 
 
-## 1/2017
+## 1/2018
 
 ---
 
 # Contents
 
-- Editor/IDE: Visual Studio Code, WebStorm (or any)
+- Editor/IDE: PhpStorm, Visual Studio Code, (or any)
 - Language: TypeScript
 - Run, test & debug: Chrome browser dev tools       
 - Version Control System: Git
 - Package manager: NPM
 - Building & automating tasks: Angular CLI (webpack)
-- Development frameworks: Angular 2, Bootstrap, Flexbox Grid
+- Development frameworks: Angular, Bootstrap, Flexbox Grid, Foundation...
 
 ---
 
 # Code editor or IDE
 
-Ultimately, it's your choice. VSCode or WebStorm are recommended.
+Ultimately, it's your choice. PhpStorm or VSCode are recommended.
+
+#### WebStorm/PhpStorm
+- free for Metropolia students. [Apply for license here](https://www.jetbrains.com/student/)
+- quite ready out of the box. No need for plugins.
 
 #### Visual Studio Code
 
@@ -27,7 +31,7 @@ Ultimately, it's your choice. VSCode or WebStorm are recommended.
 - wide extension support
 - lightweight, multiplatform support
 - good [docs & instructions](https://code.visualstudio.com/docs/editor/codebasics)
-- choice of many Angular2 developers
+- choice of many Angular developers
 
 #### WebStorm
 
@@ -75,7 +79,7 @@ Ultimately, it's your choice. VSCode or WebStorm are recommended.
 
 # Example package.json
 
-```js
+```javascript
 {
   "name": "example-app",
   "version": "0.0.1",
@@ -120,7 +124,7 @@ Ultimately, it's your choice. VSCode or WebStorm are recommended.
 
 ## Front-end application logic
 
-- [Angular 2](https://angular.io/)
+- [Angular](https://angular.io/)
 
 ## Layout/HTML/CSS
 
@@ -149,7 +153,24 @@ Exclude:
 
 ---
 
-class: center, middle
+# Getting Started with WebStorm
+
+---
+
+# Install WebStorm
+
+Download & install [WebStorm](https://www.jetbrains.com/webstorm/)
+        
+![VSCode logo](http://resources.jetbrains.com/storage/products/webstorm/img/meta/webstorm_logo_300x300.png)
+
+---
+
+# WebStorm settings
+- [Accessing default settings](https://www.jetbrains.com/help/webstorm/accessing-default-settings.html)
+- [Change JavaScript version to ES6](https://www.jetbrains.com/help/webstorm/javascript.html#ws_js_choose_language_version). Do this in (also) in default settings.
+- [Enabling TSLint in a project](https://www.jetbrains.com/help/webstorm/tslint.html)
+
+---
 
 # Getting Started with VSCode
 
@@ -159,7 +180,7 @@ class: center, middle
 
 Download & install [Visual Studio Code](https://code.visualstudio.com/)
         
-.center[![VSCode logo](images/vscode.png)]
+![VSCode logo](images/vscode.png)
 
 ---
 
@@ -224,9 +245,9 @@ Change integrated console to Bash in Windows:
 
 **b.**
 
-1. develop your app further following the [Note card tutorial](https://github.com/AngularClass/retain-app/tree/module-4-solution) but now use `ng` command to generate components.
+1. develop your app further. Add parts to the app skeleton so that the layout is similar to [this](https://cdn.tutsplus.com/net/uploads/legacy/397_yourFirstdesign/images/2.jpg)
 2. git add, commit & push to remote repository 
-3. goto b 1.
+3. goto b 1 and add content (text, images) and more CSS.
 
 ---
 
