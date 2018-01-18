@@ -21,7 +21,7 @@
 
 ### Some help
 1. Remember to import the Http class to the component and also inject the Http class to constructor
-2. [Http class](https://angular.io/docs/ts/latest/api/http/index/Http-class.html)
+2. [Http class](https://angular.io/guide/http)
 3. Bypass CORS if needed
     - [Chrome extension](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi)
     
