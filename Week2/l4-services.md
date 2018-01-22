@@ -10,7 +10,7 @@
 1. Create new app with Angular CLI
 2. Create new folder 'services' to 'app'-folder
 3. Create new service 'media' to services folder ```ng g s services/media```
-4. In the service create a method 'getAllMedia' which fetches all media files from the [media API](http://media.mw.metropolia.fi/wbma/docs/#api-Media-GetMediaFiles) and returns the data as JSON
+4. In the service create a method 'getAllMedia' which fetches all media files from the [media API](http://media.mw.metropolia.fi/wbma/docs/#api-Media-GetMediaFiles) and returns the data as Observable
     * API base url: http://media.mw.metropolia.fi/wbma
     * Media files location: http://media.mw.metropolia.fi/wbma/uploads/
     * example: 
