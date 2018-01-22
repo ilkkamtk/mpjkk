@@ -49,12 +49,13 @@
 
 ### Some help
 
-1. [Override request headers](https://angular.io/guide/http#headers)
-2. [Bypass CORS if needed](https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/)
-3. Printing data:
+1. [Services](https://angular.io/tutorial/toh-pt4) 
+2. [Override request headers](https://angular.io/guide/http#headers)
+3. [Bypass CORS if needed](https://www.thepolyglotdeveloper.com/2014/08/bypass-cors-errors-testing-apis-locally/)
+4. Printing data:
     - using expression ```{{ variable }}```
     - iterate repeating data: ```*ngFor```
-4. Use [split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) to change filename extension and add thumbnail size info
+5. Use [split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) to change filename extension and add thumbnail size info
     - [Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) to change values once
 
     
