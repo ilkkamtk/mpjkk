@@ -37,6 +37,7 @@
 
 1. Create another service to services folder. Call it digitransit It should fetch data from Digitransit Routing API `ng g s services/digitransit`.  It should fetch data from Digitransit Routing API
     - [Documentation](https://digitransit.fi/en/developers/apis/1-routing-api/)
+    - [API Documentation](https://api.digitransit.fi/graphiql/hsl), click 'Docs' on the right.
     - base url for Helsinki region: https://api.digitransit.fi/routing/v1/routers/hsl/index/graphql
 2. As you read the documentation, you find out that Content-Type must be either “application/graphql” or “application/json”. Tip: "application/graphql" works better, but for that we need to [override request headers](https://angular.io/docs/ts/latest/guide/server-communication.html#!#override-default-request-options).
 3. In the digitransit-service create method 'getRoutes'. The method should fetch route names and numbers that go through a certain stop
