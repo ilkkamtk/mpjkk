@@ -37,4 +37,4 @@
 
 
 ## Task
-Make a new Angular project. Use Bootsrap to make a layout similar to [this](https://cdn.tutsplus.com/net/uploads/legacy/397_yourFirstdesign/images/2.jpg)
+Make a new Angular project. Use Bootsrap to make a layout similar to [this](https://cdn.tutsplus.com/net/uploads/legacy/397_yourFirstdesign/images/2.jpg). Change the Bootstrap default colors of navbars, buttons, backgrounds etc... 
