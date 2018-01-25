@@ -26,7 +26,7 @@
         @import '~bootstrap/scss/functions', 'assets/custom';
         @import "~bootstrap/scss/bootstrap.scss";
         ```
-    * add ´<button class="btn btn-primary">Hello</button>´ to one of your components (default color is blue)
+    * add `<button class="btn btn-primary">Hello</button>` to one of your components (default color is blue)
     * Modify `_custom.scss` to change the primary color:
         ```
         $primary: red;
