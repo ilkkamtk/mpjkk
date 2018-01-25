@@ -5,7 +5,7 @@
 
 ### Adding Bootstrap to Angular project
 1. Add the Bootstrap 4 library to your project: ```npm install --save bootstrap@next```
-2. Add the following line in file styles.css: ```@import "~bootstrap/dist/css/bootstrap.css";```
+2. Add the following line in file styles.scss: ```@import "~bootstrap/dist/css/bootstrap.css";```
 3. Bootstrap JavaScript library is making use of jQuery and is manipulating the DOM directly. For an Angular application any direct DOM manipulations should be avoided and the complete control to update DOM elements should be be given to the Angular framework. Use Bootstrap 4 Angular directives: ```npm install --save @ng-bootstrap/ng-bootstrap```
 4. Having completed the installation the corresponding Angular module NgbModule must be imported in app.module.ts:
    ```
