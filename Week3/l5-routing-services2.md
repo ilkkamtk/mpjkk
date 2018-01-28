@@ -105,7 +105,7 @@ _*.component.html_
    <h1>This is setup</h1>
    ```
    
-    _routes.component.html_
+   _routes.component.html_ 
     ```
     <h1>This is routes</h1>
     ```
