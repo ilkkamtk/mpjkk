@@ -104,11 +104,11 @@ _*.component.html_
    ```
    <h1>This is setup</h1>
    ```
-_routes.component.html_ 
-
-    ```
-    <h1>This is routes</h1>
-    ```
+_routes.component.html_
+   ```
+   <h1>This is routes</h1>
+   ``` 
+    
 4. Read the above info about routing and make the app change states between Setup and Routes by clicking the links in top-bar (=navigation)
  
 ### Services PT II
