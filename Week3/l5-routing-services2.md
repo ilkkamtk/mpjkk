@@ -4,32 +4,25 @@
 ## 3/2017
 
 # Router basics
+- When using Angular CLI use --routing option
 
 Route declarations:
 
-_app.module.ts_
+_app-routing.module.ts_
 ```typescript
 ...
-import { RouterModule } from '@angular/router';
+import { ExampleComponent } from './example/example.component';
 
-const routeConfig = [
+const routes: Routes = [
   {
     path: 'example',
     component: ExampleComponent
   }
 ];
-
-@NgModule({
-  ...
-  imports: [
-    ...
-   RouterModule.forRoot(routeConfig),
-    ...
-  ],
   ...
 ```
 
-`<router-outlet></router-outlet>` declares the placeholder for routed component tree:
+- `<router-outlet></router-outlet>` declares the placeholder for routed component tree:
 
 _app.component.html_
 
@@ -45,9 +38,9 @@ _app.component.html_
 - `pathMatch: 'full'` can be used to set the algorithm to full matching
 - Redirects can be done with `redirectTo`
 
-_app.module.ts_
+_app-routing.module.ts_
 ```typescript
-const routeConfig = [
+const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
