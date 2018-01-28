@@ -83,7 +83,7 @@ _*.component.html_
 ```
 
 ### Task 1
-1. Create new app with Angular CLI
+1. Create new app with Angular CLI. Add routing and style=scss [options](https://github.com/angular/angular-cli/wiki/new)
 2. Create components 'top-bar', 'setup' and 'routes' (these are bus routes, not angular routes)
 3. Templates:
 
@@ -113,13 +113,15 @@ _*.component.html_
  
 ### Services PT II
 
-1. Create new folder 'services' to 'app'-folder
-2. Create new service 'digitransit' to services folder `ng g s services/digitransit`. Copy/paste the content of `digitransit.service.ts` from previous lab.
-3. Copy/paste the content of `routes.component.ts` and `routes.component.html` from previous lab
-4. Your task is to make the app work like this:
+1. Create new service 'digitransit' to services folder `ng g s services/digitransit`. Copy/paste the content of `digitransit.service.ts` from previous lab.
+2. Copy/paste the content of `routes.component.ts` and `routes.component.html` from previous lab
+3. Your task is to make the app work like this:
   - User enters the name of a bus stop in 'setup'
     - Two way data binding with [ngModel](https://blog.thoughtram.io/angular/2016/10/13/two-way-data-binding-in-angular-2.html)
     - [Events](http://learnangular2.com/events/)
   - When the name is set, user is redirected to 'routes' which displays the bus routes of the entered bus stop just like in previous lab
   - Advanced: When user clicks on a route, new browser window is opened which displays the current position of selected route in Google Maps
-    - You can create a marker to a certain location by redirecting to `https://maps.google.fi/maps/place/latitude+longitude`
+    - Easy: You can create a marker to a certain location by redirecting to `https://maps.google.fi/maps/place/latitude+longitude`
+    - Semi-easy: Embed api: https://developers.google.com/maps/documentation/embed/
+    - Preferred: https://angular-maps.com/
+    
