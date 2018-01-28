@@ -124,4 +124,5 @@ _*.component.html_
     - Easy: You can create a marker to a certain location by redirecting to `https://maps.google.fi/maps/place/latitude+longitude`
     - Semi-easy: Embed api: https://developers.google.com/maps/documentation/embed/
     - Preferred: https://angular-maps.com/
+      - to get a key, use gmail account, not Metropolia account
     
