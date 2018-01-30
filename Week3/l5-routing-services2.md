@@ -118,4 +118,5 @@ _routes.component.html_
     - Semi-easy: Embed api: https://developers.google.com/maps/documentation/embed/
     - Preferred: https://angular-maps.com/
       - to get a [Goole Maps key](https://developers.google.com/maps/documentation/javascript/), use gmail account, not Metropolia account
+      - [Google Developer Console](https://console.developers.google.com/). Täältä saa haettua API keyt, jos on päässyt unohtumaan.
     
