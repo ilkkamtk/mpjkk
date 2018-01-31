@@ -1,31 +1,32 @@
 # MPJKK, Angular Forms
 
-## 4/2017
+## 3/2018
 
 ---
-
 # Forms
 
 Learn about how Angular handles forms: 
 
-- [Template driven forms](https://blog.thoughtram.io/angular/2016/03/21/template-driven-forms-in-angular-2.html)
-- [Model driven forms](https://scotch.io/tutorials/using-angular-2s-model-driven-forms-with-formgroup-and-formcontrol)
+- [Angular forms](https://angular.io/guide/forms)
+- [Codecraft](https://codecraft.tv/courses/angular/forms/overview/)
+---
 
-### Task: Create form to save user preferences to Local Storage  
+# Using services II - Login
 
-1. Use the previous exercise [Week3l5_advanced.zip](https://tuubi.metropolia.fi/portal/group/tuubi/etusivu/yleiset-tyokalut/tyotilat?p_p_id=Workspaces_WAR_workspaces&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_Workspaces_WAR_workspaces_tab=documents&_Workspaces_WAR_workspaces_workspaceId=340002468) as a starting point
-    - extract the zip into folder of your choice and run `npm install`
-1. Add following functionality to 'setup' page:
-    - User can store favourite stop
-    - User can store personal information such as name, home address, phone number
-    - When user returns to the site, even after closing the browser, all above mentioned information can be used in 'routes' page
-    - All above mentioned information can be erased (sort of logout)
-    - Advanced: User can look up stop names and codes from Google Maps placed in iframe-element
-1. Add following functionality to 'routes' page:
-    - The routes of favourite stop are displayed
-    - Personal information is displayed
-1. Submit link to your repo to Trello
-    
-### Some help:
-- [Local Storage](http://www.w3schools.com/html/html5_webstorage.asp)
-- Convert object to string: `JSON.stringify()`, convert string to object: `JSON.parse()`
+
+1. In  media.service.ts create methods 'register' and 'login' with corresponding functionalities
+    - 'login': call media API to login user and save users token to [local storage](http://www.w3schools.com/html/html5_webstorage.asp)
+        - when logged in, user is redirected to 'front'
+        - if user has already logged in redirect to 'front' (autodirect)
+    - 'register': call media API to create new user and automatically login
+    - [Angular forms](https://angular.io/guide/user-input)
+
+2. Create Upload Form 
+- Use your own version of the previous [exercise](w3-login.md) as a starting point and develop it further
+   - or load teachers example from Oma (w3t1.zip)
+- Create a new component for the upload functionality
+   - add <input type=file> and <button>Upload</button> to the template
+- When uploading a file to the API, you need to send [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects) 
+   - in previous exercise you got field values with ngModel. When sending a file, you need to use $event (event object)
+   - in *.component.ts create a method which is called by (change) event of the input element. In the function log event to console to find out how to get the property that has the file. Save the value of that property to a variable of type File. 
+   - create another method to upload the file. create new FormData object, add the file, title and description to the object and send it to the API using MediaService. Of course you need to create a new method to MediaService.
