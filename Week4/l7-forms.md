@@ -20,6 +20,7 @@ Learn about how Angular handles forms:
         - if user has already logged in redirect to 'front' (autodirect)
     - 'register': call media API to create new user and automatically login
     - [Angular forms](https://angular.io/guide/user-input)
+    - [MediaAPI docs](http://media.mw.metropolia.fi/wbma/docs/)
 
 2. Create Upload Form 
 - Use your own version of the previous [exercise](w3-login.md) as a starting point and develop it further
