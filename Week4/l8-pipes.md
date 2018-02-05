@@ -1,34 +1,33 @@
 # WBMA, Angular Pipes
 
-## 4/2017
+## 4/2018
 
 ---
 
-# Forms
+# Pipes
 
-Learn about Angular pipes: 
+Learn how you can use pipes to transform output data values: [Pipes angular.io guide](https://angular.io/docs/ts/latest/guide/pipes.html).
 
-- [Pipes](https://angular.io/docs/ts/latest/guide/pipes.html)
+### Task: Create a custom pipe and use it to get thumbnail images of the media files 
 
-### Task:  
+1. Use the previous exercise as a starting point and develop it further
+    - Create new classroom repo using the link in Oma. Push the previous exercise and then change remote to new repo: `git remote set-url origin https://github.com/wbma/repoName.git`
+1. Use `FrontComponent` to show thumbnails of the 10 newest media files
+    - add getNew() method into `MediaService` and use [GET /media](http://media.mw.metropolia.fi/wbma/docs/#api-Media-GetMediaFiles)
+    - inject MediaService into your `FrontComponent`
+    - use `*ngFor` to list files in component's html template
+1. [Check from api docs](http://media.mw.metropolia.fi/wbma/docs/#api-Media-GetFile) how thumbnail files can be accessed
+1. Use angular-cli to generate a new pipe called _thumbnail_ into _src/app/pipes_ folder : first `mkdir [PATH]/pipes` and then `ng generate pipes/[NAME]`
+1. Edit the `transform()` method in the `thumbnail.pipe.ts` file:
+    - it should get a filename in as a parameter (`value`)
+    - optional size (large/medium/small) as an args paratemer (use one the sizes as a default if not specified in the expression)
+    - return the thumbnail's filename of selected size
+1. Use the pipe in your _front.component.html_ file, example of usage:
 
-1. Use the previous exercise [Week4l7.zip](https://tuubi.metropolia.fi/portal/group/tuubi/etusivu/yleiset-tyokalut/tyotilat?p_p_id=Workspaces_WAR_workspaces&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_Workspaces_WAR_workspaces_tab=documents&_Workspaces_WAR_workspaces_workspaceId=340002468) as a starting point
-    - extract the zip into folder of your choice and run `npm install`
-1. Add following functionality to 'setup' page:
-    - User can look up stop names and codes from Google Maps placed in iframe-element
-        - when the stop is clicked Google wants users to view larger map for more info like bus stop's code etc.
-        - some help [here](https://developers.google.com/maps/documentation/embed/guide#optional_parameters) and [here](http://stackoverflow.com/questions/38037760/how-to-set-iframe-src-in-angular-2-without-causing-unsafe-value-exception)
-        - example url for place: `https://www.google.com/maps/embed/v1/place?key=${this.key}&q=Mannerheimintie`
-        - Creating pipe with Angular CLI:
-            - create 'pipes' directory to 'app' folder
-            - run `ng g pipe pipes/pipeName`
-1. Add following functionality to 'routes' page:
-    - When user clicks on a route, location of a bus is shown on map which is also in iframe-element (so not in new browser window)
-        - example url for coordinates: `https://www.google.com/maps/embed/v1/place?key=${this.key}&q=${lat},${lon}`
-    - Display the `tst` property of ´VP´ object in finnish date and time format
-        - VP can be found at showBus-method in routes.component.ts (`resp[Object.keys(resp)[0]].VP`)
-        - some help [here](https://angular.io/docs/ts/latest/api/common/index/DatePipe-pipe.html) and [here](http://stackoverflow.com/questions/34904683/how-to-set-locale-in-datepipe-in-angular2/35527407)
-        - finnish locale is 'fi-FI'
-        - create custom pipe to remove the parenthesis from name of route. Example:  `235N to Kuurintorppa (HSL:2614260)`=>`235N to Kuurintorppa`
-            - substring(), indexOf()
-            - or replace() With a Regular Expression
+    ```html
+    <div *ngFor="let file of mediaFiles">
+      <img [alt]="file.title" [src]="'http://media.mw.metropolia.fi/wbma/uploads/' + (file.filename | thumbnail: 'small')">
+    </div>
+    ```
+  
+  **Why to use thumbnails instead of full size files?**
