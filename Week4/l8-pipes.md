@@ -20,7 +20,7 @@ Learn how you can use pipes to transform output data values: [Pipes angular.io g
 1. Use angular-cli to generate a new pipe called _thumbnail_ into _src/app/pipes_ folder : first `mkdir [PATH]/pipes` and then `ng generate pipe pipes/[NAME]`
 1. Edit the `transform()` method in the `thumbnail.pipe.ts` file:
     - it should get a filename in as a parameter (`value`)
-    - optional size (large/medium/small) as an args paratemer (use one the sizes as a default if not specified in the expression)
+    - optional size (large/medium/small) as an args parameter (use one the sizes as a default if not specified in the expression)
     - return the thumbnail's filename of selected size
 1. Use the pipe in your _front.component.html_ file, example of usage:
 
